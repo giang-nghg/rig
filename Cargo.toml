@@ -48,7 +48,7 @@ sha2 = "0.9.8"
 shellexpand = "2.1.0"
 simple-error = "0.2.3"
 simplelog = { version = "^0.12.0", features = ["paris"] }
-sudo = "0.6.0"
+sudo = { git = "https://gitlab.com/nhgiang/sudo.rs.git", branch = "experiment/portable" }
 tabular = "0.2.0"
 tokio = { version = "1", features = ["full"] }
 
